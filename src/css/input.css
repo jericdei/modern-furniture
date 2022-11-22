@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+	@apply text-primary-dark;
+}
+
+.text-shadow-custom {
+	text-shadow: 5px -3px 1px gray;
+}
